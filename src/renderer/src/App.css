@@ -1,0 +1,112 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  gap: 12px;
+  min-height: 56px;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #dee2e6;
+  background-color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #495057;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.nav-button:active {
+  background-color: #dee2e6;
+}
+
+.url-form {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  max-width: 600px;
+}
+
+.url-input {
+  flex: 1;
+  height: 36px;
+  padding: 8px 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.url-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.go-button {
+  height: 36px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.go-button:hover {
+  background-color: #0056b3;
+}
+
+.go-button:active {
+  background-color: #004085;
+}
+
+.loading-indicator {
+  padding: 8px 12px;
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeaa7;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.browser-content {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.webview {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #ffffff;
+}
