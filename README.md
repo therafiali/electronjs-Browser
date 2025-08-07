@@ -2,6 +2,10 @@
 
 A minimal, production-ready Electron browser application built with React and TypeScript.
 
+![Simple Browser Screenshot](image.png)
+
+_The Simple Browser application running fast.com speed test showing 88 Mbps_
+
 ## Features
 
 - Simple and clean browser interface
